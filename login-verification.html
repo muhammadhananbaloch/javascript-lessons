@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login Verification</title>
+</head>
+<body>
+  <script>
+    let visitor = prompt("Who's there?");
+    if (visitor == '' || visitor == null){
+      alert("Canceled");
+    }
+    else if (visitor == "Admin"){
+      pass = prompt("Password?");
+    }
+    else{
+      alert("I don't know you")
+    }
+
+    if (pass == '' || pass == null){
+      alert("Canceled");
+    }
+    else if (pass == 'TheMaster'){
+      alert("Welcome");
+    }
+    else {
+      alert("Wrong Password")
+    }
+    
+  </script>
+</body>
+</html>
